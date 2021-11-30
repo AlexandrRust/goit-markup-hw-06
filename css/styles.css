@@ -245,6 +245,7 @@ body {
   height: 120px;
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-bottom: 30px;
 }
 
@@ -361,8 +362,6 @@ body {
   margin-right: 10px;
 }
 .ourteam-social-link {
-  display: flex;
-  align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -372,6 +371,7 @@ body {
 }
 
 .ourteam-social-icon {
+  margin: 0 auto;
   fill: currentColor;
 }
 
@@ -406,6 +406,7 @@ body {
   border-radius: 5px;
   display: flex;
   align-items: center;
+  justify-content: center;
   color: var(--icon-color);
   transition: border-color var(--accent-transition),
     color var(--accent-transition);
@@ -492,6 +493,7 @@ address {
 }
 
 .center-thumb-icon {
+  margin: 0 auto;
   fill: var(--accent-icon-color);
 }
 
