@@ -629,7 +629,7 @@ address {
   width: 448px;
   height: 40px;
   margin-bottom: 10px;
-  padding-top: 4px;
+  margin-top: 4px;
 }
 
 .modal-input {
@@ -724,6 +724,7 @@ address {
   background-repeat: no-repeat;
 }
 .license-link {
+  margin-left: 2px;
   color: var(--accent-color);
 }
 
